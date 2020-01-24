@@ -68,3 +68,8 @@ name.slice(1).toLowerCase()
 "mmay"
 name[0].toUpperCase()+name.slice(1).toLowerCase()
 "Jmmay"
+
+///
+Take input from the user and convert all letter in toUpperCase and last letter
+toLowerCase
+///
