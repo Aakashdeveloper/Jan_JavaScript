@@ -38,3 +38,16 @@ Github
 > https://code.visualstudio.com/
 > https://github.com/
 > https://github.com/Aakashdeveloper
+
+
+//First Time
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo1.git
+git push -u origin master
+
+// All next time
+git add .
+git commit -m "first commit"
+git push
