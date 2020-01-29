@@ -51,3 +51,10 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+
+> Navigate to folder using cmd
+> node filename
+
+>>>>>Array<<<<<
+>>>>>Loop<<<<<<

@@ -85,3 +85,4 @@ Luck Game
 > Generate one number between 1 to 100
 > take one input as number from user
 > if both match say user win  else user loose 
+> and give total five chance 
