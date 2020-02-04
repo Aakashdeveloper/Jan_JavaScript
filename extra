@@ -14,6 +14,7 @@ Ecma is standerd(base)(JavaScript, TypeScript)
 > Ternray opr
 > loop
 > function
+------------------
 > Object
 > Prototype
 > Es6
@@ -56,5 +57,5 @@ git push
 > Navigate to folder using cmd
 > node filename
 
->>>>>Array<<<<<
->>>>>Loop<<<<<<
+>>>>>regex<<<<<
+>>>>>map/filter<<<<<<

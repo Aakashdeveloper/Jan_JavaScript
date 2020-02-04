@@ -12,6 +12,12 @@ for(i=0;i<a.length;i++){
     
 }
 
+
+
+
+
+
+
 > Generate one number between 1 to 100
 > take one input as number from user
 > if both match say user win  else user loose 
