@@ -14,24 +14,25 @@ Ecma is standerd(base)(JavaScript, TypeScript)
 > Ternray opr
 > loop
 > function
-------------------
-> Object
-> Prototype
+> Regex
 > Es6
     > Variables
     > map, filter
     > arrow function
+> LocalStorage
+> String literals
+--------------------
+> Object
+> Prototype
+> Es6
     > Classes
     > import export
 > Dom
 > Calc
 > Form validation
-> Regex
 > Progess bar
 > Weather application (Ajax)
 > Basic jquery
-> LocalStorage
-> String literals
 
 -----
 Github
@@ -57,5 +58,5 @@ git push
 > Navigate to folder using cmd
 > node filename
 
->>>>>regex<<<<<
->>>>>map/filter<<<<<<
+
+>>>>Object<<<
