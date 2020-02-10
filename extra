@@ -19,18 +19,19 @@ Ecma is standerd(base)(JavaScript, TypeScript)
     > Variables
     > map, filter
     > arrow function
-> LocalStorage
-> String literals
---------------------
-> Object
-> Prototype
-> Es6
     > Classes
     > import export
+> LocalStorage
+> String literals
+> Object
+> Prototype
+--------------------
+> Transpile   
 > Dom
 > Calc
 > Form validation
 > Progess bar
+> Geolocation
 > Weather application (Ajax)
 > Basic jquery
 
@@ -58,5 +59,6 @@ git push
 > Navigate to folder using cmd
 > node filename
 
+>>>>Transpile, DOM<<<<<
 
->>>>Object<<<
+///npm, node_modules, package.json
