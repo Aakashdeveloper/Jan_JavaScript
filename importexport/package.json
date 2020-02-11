@@ -1,0 +1,21 @@
+{
+  "name": "testinges6",
+  "version": "1.0.0",
+  "description": "this is about transpile",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node start.js"
+  },
+  "keywords": [
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3"
+  }
+}

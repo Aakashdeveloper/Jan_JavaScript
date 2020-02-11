@@ -15,4 +15,5 @@ articles.sum = (a,b) => {
     return a+b
 }
 
-module.exports = articles
+//module.exports = articles
+export default articles

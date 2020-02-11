@@ -25,15 +25,17 @@ Ecma is standerd(base)(JavaScript, TypeScript)
 > String literals
 > Object
 > Prototype
---------------------
 > Transpile   
 > Dom
+--------------------
 > Calc
 > Form validation
 > Progess bar
 > Geolocation
-> Weather application (Ajax)
 > Basic jquery
+> Weather application (Ajax)
+> promise
+> Github
 
 -----
 Github
@@ -62,3 +64,19 @@ git push
 >>>>Transpile, DOM<<<<<
 
 ///npm, node_modules, package.json
+
+///
+Step create package.json
+    > Go to cmd
+    > Navigate to the folder
+    > npm init
+    > Answer all question
+    > type 'yes'
+
+babel
+> npm install @babel/core @babel/register @babel/preset-env
+
+///DOM/////
+Id
+ClassName
+TagName

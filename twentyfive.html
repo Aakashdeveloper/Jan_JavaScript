@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Events</title>
+        <script>
+            function testclick(){
+                document.getElementById('mytext').style.visibility="visible"
+                document.getElementById('mytext').style.color="black"
+            }
+            function color(){
+               document.getElementById('mytext').style.color="orange"
+            }
+            function hide(){
+              document.getElementById('mytext').style.visibility="hidden"
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="mytext">
+            Hi is about JavaScript with HTML 
+        </h1>
+        <button type="button"
+            onClick="color()">
+            Change Color
+        </button>
+        <button type="button"
+            onClick="hide()">
+            Hide Me
+        </button>
+        <button type="button"
+            onClick="testclick()">
+            Back to Basic
+        </button>
+    </body>
+</html>

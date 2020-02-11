@@ -15,6 +15,7 @@ class langauage1 {
 }
 
 var english = new langauage1('English','UK')
+{'name':'English', 'country':'UK'}
 
 
 ///////Inheritance////////
@@ -38,3 +39,4 @@ class langauage1 extends geo{
 }
 
 var english = new langauage1('English','UK',10.999,3.11)
+
