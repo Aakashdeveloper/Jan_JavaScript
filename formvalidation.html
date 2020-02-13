@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script>
+            const validate = () => {
+                var name = document.getElementById('fname').value;
+                document.getElementById('output').style.color="red"
+                if(name== ' ' || name== ''){
+                    document.getElementById('output').innerText="Please enter firstName"
+                }else{
+                    document.getElementById('output').innerText=""
+                }
+                
+            }
+            const validateEmail = ( ) => {
+                var email = document.getElementById('email').value;
+                document.getElementById('output').style.color="red"
+                var a = email.match('^([a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]{2,5})$')
+                if(email== ' ' || email== ''){
+                    document.getElementById('output').innerText="Please enter email"
+                }else{
+                    if(email.match('^([a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]{2,5})$') == null)
+                    {
+                        document.getElementById('output').innerText="Please enter valiid email"
+                    }else
+                    {
+                        document.getElementById('output').innerText=""
+                    }
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname" name="fname" onblur="validate()"></input>
+            </div>
+            <br/>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" name="email" onblur="validateEmail()"></input>
+            </div>
+        </form>
+        <p id="output"></p>
+    </body>
+</html>
